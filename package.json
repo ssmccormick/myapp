@@ -1,0 +1,24 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "my first app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssmccormick/myapp.git"
+  },
+  "keywords": [
+    "My",
+    "First",
+    "App"
+  ],
+  "author": "Shiloh McCormick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssmccormick/myapp/issues"
+  },
+  "homepage": "https://github.com/ssmccormick/myapp#readme"
+}
