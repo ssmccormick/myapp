@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ssmccormick/myapp/issues"
   },
-  "homepage": "https://github.com/ssmccormick/myapp#readme"
+  "homepage": "https://github.com/ssmccormick/myapp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
