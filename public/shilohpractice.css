@@ -3,7 +3,11 @@
 	
 }
 
-
+a {
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px solid #000;
+}
 
 #navigation {
     background: #fff;
@@ -23,6 +27,8 @@
 	font-size: 32px;
 	text-decoration: none;
 	color: #000;	
+	font-family: "Abel", sans-serif;
+	border-bottom: none;
 }
 
 #navigation ul {
@@ -45,7 +51,19 @@
 	font-size: 16px;
 	letter-spacing: normal;
 	font-weight: 300;
-	
+	border-bottom: none;	
+}
+
+#navigation li a:hover {
+	opacity: 0.5;
+
+}
+
+#our-story {
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px solid #000  !important;
+	padding-bottom: 2px;
 }
 
 
@@ -180,7 +198,7 @@ main > section {
 	width: 100%;
 	height: 750px;
 	background-position: 50% 70%;
-	
+	margin-top: 20px;
 }
 
 /* Vermouth Section Styles */
@@ -237,16 +255,16 @@ main > section {
 
 .location-sect .button {
 	margin: 0 auto;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 
 }
 
 .location-sect .section-paragraph {
 	margin: 0px auto;
-	padding: 100px 150px;
-    display: inline-block;
-	
+	padding: 10px;
 }
+
+
 
 .location-sect .address {
 	font-size: 40px;
@@ -257,9 +275,95 @@ main > section {
 	width: 21%;
 }
 
+.location-sect .hours-open-div {
+	display: inline-block;
+	padding: 100px;
+}
+
+/* Newsletter Section Styles */
+	
+.newsletter-sect {
+	background: #000 url("https://images.squarespace-cdn.com/content/v1/5ce752b3c2419d0001a9701c/1558721361045-3JH6IONFGLA7B8QTYRZJ/ke17ZwdGBToddI8pDm48kAv1FK3RQa1IycFFMhGJUu17gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UUvV9A6_UqSpIg-tznanFAOxw9XwcXudSKu1T0qowQ2MnFLMqqVOimA-q9f9wNsmVg/camp_397-copy.jpg?format=2500w");
+	width: 100%;
+	background-position: 50% 60%;
+	font-size: 36px;
+	font-family: "Abel", sans-serif;
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+
+}
+.newsletter-sect .section-paragraph {
+	margin: 0px auto;
+	padding: 115px 50px 20px 50px;
+}
+
+.newsletter-sect .section-span {
+	font-family: "Source Code Pro", sans-serif;
+	font-size: 16px;
+	margin: 0px auto;
+	padding: 10px;	
+}
+
+.email-input-contain {
+	margin-top: 25px;
+}
+
+.email-input {
+	border: none;
+	font-size: 16px;
+	font-family: "Source Code Pro", sans-serif;
+	padding: 23px 30px;
+}
+
+::placeholder {
+	color: #d3d3d3;
+}
+
+.newsletter-sect .button {
+	margin: 0 auto;
+	margin-bottom: 150px;
+	margin-left: 10px;
+
+}
+
+}
+
+
 /* Footer Styles */
 footer {
 	position: relative;
+
+}
+
+footer > div > span {
+	padding: 0px 50px 50px 0px;
+	font-family: "Source Code Pro", sans-serif;
+	font-size: 14px;
+	font-weight: 200;
+	display: block;
+}
+
+footer p {
+	font-family: "Source Code Pro", sans-serif;
+	font-weight: 300;
+	margin: 0 auto;
+	padding: 2.5px 0px;
+}
+.footer-div {
+	display: inline-block;
+	padding: 50px 100px 50px 200px;
+}
+
+.footer-logo {
+	margin: 0px 75px 0px 0px;
+	padding-top: 50px;
+	padding-left: 0px;
+	font-family: "Abel", sans-serif;
+	font-size: 32px;
+	text-decoration: none;
+	color: #000;
+	display: inline-block;	
 }
 
 /*Button Styles */
@@ -291,4 +395,28 @@ footer {
 	display: inline;
     position: relative;
     top: 7px;
+}
+
+/*Our Story Page Styles */
+.our-story-sect {
+	text-align: center;
+}
+
+.section-our-story {
+	margin: 0px auto;
+	padding: 15px;
+	display: block;
+	font-family: "Source Code Pro", sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	text-align: left;
+	width: 40%;
+	line-height: 1.5em;
+}
+
+.our-story-h1 {
+	position: static;
+    font-weight: 200;
+    padding: 0px;
+
 }
