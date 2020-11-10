@@ -1,0 +1,12 @@
+/*Navigation Bar Styles*/
+
+#navigation {
+	display: flex;
+	color: red;
+	
+
+	li {
+		color: blue;
+		list-style: none;
+	}
+}

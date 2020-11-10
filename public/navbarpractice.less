@@ -1,0 +1,111 @@
+/*Navigation Bar Styles*/
+
+@navbackgroundcolor: #fff;
+@navbackgroundhovercolor: #000;
+
+body {
+	background-color: #D8DEC3;
+	position: relative;
+}
+
+#ad-spacer {
+	padding: 55px;
+}
+
+#navigation {
+	display: flex;
+	color: red;
+	box-shadow: 5px 5px 10px #000;
+	background-color: @navbackgroundcolor;
+
+	ul {
+		font-family: "Roboto Condensed","Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+		font-weight: 700;
+		font-size: 12px;
+		text-transform: uppercase;
+		background-color: @navbackgroundcolor;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	li {
+		color: #fff;
+		background-color: @navbackgroundcolor;
+		list-style: none;
+		display: inline;
+		margin-right: -2px;
+
+	}
+
+	a:before {
+    content: "";
+    margin: 0px 16px 0px -2px;
+    border-left: 1px solid #000;
+	}
+
+	
+	.drop-down-menu {
+		position: absolute;
+		left: 0px;		
+		display: none;
+		background-color: #fff;
+		width: 100%;
+		box-shadow: 5px 5px 10px #000;
+		z-index: 1;
+	}
+
+	.drop-down-menu ul {
+		display: inline-block;
+		position: relative;
+		width: 70%;
+	}
+		
+	.drop-down-menu ul li {
+
+	}
+
+	.drop-down-menu ul li a {
+		display: inline-block;
+
+	}
+
+	.drop-down-menu li a:before {
+		border-left: none;
+	}
+
+	li:hover  {
+		background-color: @navbackgroundhovercolor;
+	}
+
+	li:hover .drop-down-menu  {
+		display: block;
+
+	}
+
+	.drop-down-picture {
+		display: inline-block;
+		background-image: url(//townsquare.media/site/550/files/2017/09/dropmix.jpg?w=300&q=75);
+		background-repeat: no-repeat;
+		width: 285px;
+		height: 190px;
+		margin: 30px 15px;
+	}
+
+
+	li:hover a {
+		background-color: @navbackgroundhovercolor;
+		color: @navbackgroundcolor;
+	}
+
+	a {
+		text-decoration: none;
+		color: #000;
+		padding: 23px 20px 23px 1px;	
+		display: inline-block;
+	}
+}
+
+img {
+	background-color: #000;
+}
+
